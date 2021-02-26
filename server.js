@@ -61,6 +61,6 @@ if (process.env.NODE_ENV === 'production') {
     })
 }
 
-app.listen(5050, () => {
-    console.log("Server started at Port", 5050)
+app.listen(5000, () => {
+    console.log("Server started at Port", 5000)
 })
