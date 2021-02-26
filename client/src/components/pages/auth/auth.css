@@ -1,0 +1,103 @@
+.auth{
+    background-image: url('../../../assets/img/auth_bg.png');
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+}
+.login_page{
+    width: 700px;
+    margin: 0 auto ;
+    min-height: fit-content;
+    background: #fff;
+}
+.top_part_auth{
+    padding: 25px;
+}
+.top_part_auth h4{
+    color: rgb(99, 95, 95);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    margin-bottom: 40px;
+}
+.auth_forms{
+    display: flex;
+}
+.registration_options{
+    width: 50%;
+    padding: 25px 15px;
+    border-right: 1px solid #ccc;
+}
+.reg_options_buttons  button{
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    width: 100%;
+    padding: 10px 15px;
+}
+.registration_option  p{
+    font-size: 13px;
+    color: rgb(136, 136, 130);
+}
+.reg_action_btn{
+    float: right;
+}
+.reg_action_btn button{
+    margin: 2px 5px;
+    background: #fff;
+}
+.sign_up_btn{
+    background: #014ceb !important;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+.login{
+    width: 50%;
+    padding: 25px 25px;
+}
+form div{
+    margin-bottom: 8px;
+}
+form label{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+form div input{
+ width: 100%;
+ padding: 10px 8px;
+}
+.login_actions{
+    display: flex;
+    justify-content: space-between;
+}
+.login_actions, .registration_actions p{
+    font-size: 13px;
+    color: rgb(136, 136, 130);
+}
+.login_actions button{
+    background: #014ceb;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.a_l_layer{
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+.a_l_layer ul{
+    display: flex;
+    justify-content: center;
+}
+.a_l_layer ul li{
+    padding: 3px 2px;
+}
