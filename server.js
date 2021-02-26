@@ -32,7 +32,7 @@ app.use('/ftp', express.static('public'), serveIndex('public', { 'icons': true }
 
 
 //connect to Mongodb
-const db = process.env.MONGODB_URL
+const db = process.env.MONGO_URL
 mongoose.connect(db, {
     useCreateIndex: true,
     useFindAndModify: false,
