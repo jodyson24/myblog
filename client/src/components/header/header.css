@@ -1,0 +1,136 @@
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #010;
+    background: #fff;
+    z-index: 9999;
+}
+nav{
+    display: flex;
+    max-width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    padding: 10px 10px;
+}
+nav ul li svg{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+.user-pic{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #010;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.colored{
+    background: #a82723;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: 600;
+}
+.search{
+    border: 1px solid #2e69ff;
+    width: 260px;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+.user-pic img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.drop-nav{
+    padding: 5px 4px;
+    position: absolute;
+    top: 54px;
+    left: 68%;
+    width: 230px;
+    height: fit-content;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.user-link{
+    border-bottom: 1px solid #ccc;
+    padding: 6px 10px;
+}
+.user-link img{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #010;
+}
+.user-link h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 6px;
+}
+.user-link-menu ul{
+    display: block;
+}
+.user-link-menu ul li{
+    transition: .4s;
+}
+.user-link-menu ul li a{
+    margin: 6px 8px;
+    color: #010;
+}
+.user-link-menu ul li:hover{
+    background: #a82723;
+    color: #fff;
+    width: 100%;
+    padding: 6px 5px;
+}
+.user-link-menu li:hover a{
+    color: #fff;
+}
+.not-logged{
+    display: block;
+}
+.not-logged li{
+    margin: 7px 0px;
+}
+.not-logged li a{
+    transition: .4s;
+    width: 100%;
+}
+.not-logged li a:hover{
+    background: #a82723;
+    color: #fff;
+    width: 100%;
+    padding: 6px 5px;
+}
+.notify-count-stat-header{
+    background: #b92b27;
+    color: #fff;
+    padding: 4px 4px;
+    font-size: 12px;
+    border-radius: 5px;
+    position: absolute;
+    top: 7px;
+    margin-right: 10px;
+}
